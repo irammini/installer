@@ -1,3 +1,3 @@
-apt install lsd -y
+sudo apt install lsd -y
 
 echo "Installed Lsd."
