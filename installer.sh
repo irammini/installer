@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# Define repo context
-USER="irammini"
-REPO="installer"
-BRANCH="main"
-
 # The core logic
 TOOL_NAME=$1
-RAW_URL="https://raw.githubusercontent.com/${USER}/${REPO}/${BRANCH}/scripts/${TOOL_NAME}.sh"
+# Just hardcoded the URL
+RAW_URL="https://raw.githubusercontent.com/irammini/installer/refs/heads/main${TOOL_NAME}.sh"
 
 # Execution (Example: check and run)
 if curl --output /dev/null --silent --head --fail "$RAW_URL"; then
