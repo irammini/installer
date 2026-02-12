@@ -3,7 +3,7 @@
 # The core logic
 TOOL_NAME=$1
 # Just hardcoded the URL
-RAW_URL="https://raw.githubusercontent.com/irammini/installer/refs/heads/main/${TOOL_NAME}.sh"
+RAW_URL="https://raw.githubusercontent.com/irammini/installer/refs/heads/main/scripts/${TOOL_NAME}.sh"
 
 # Execution (Example: check and run)
 if curl --output /dev/null --silent --head --fail "$RAW_URL"; then
