@@ -1,5 +1,5 @@
 PROCS_VERSION=0.14.10
-FILE_NAME=procs-v${PROCS_VERSION}-86_64-linux.zip
+FILE_NAME=procs-v${PROCS_VERSION}-x86_64-linux.zip
 URL=https://github.com/procs/procs/releases/download/v${PROCS_VERSION}/${FILE_NAME}
 
 curl -O $URL
