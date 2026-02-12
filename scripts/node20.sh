@@ -4,7 +4,7 @@
 NODE_VERSION="20"
 FNM_INSTALL_DIR="$HOME/.local/share/fnm"
 
-sudo apt install unzip -y || true
+sudo apt install unzip -y 
 
 # 1. Install fnm to the specified directory
 curl -fsSL https://fnm.vercel.app/install | bash -s -- --install-dir "$FNM_INSTALL_DIR" --skip-shell

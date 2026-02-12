@@ -10,4 +10,4 @@ curl -fsSL https://raw.githubusercontent.com/irammini/installer/refs/heads/main/
 1. **Ubuntu/Debian Environment**
 2. **cURL**
 3. **Bash**
-4. **Sudo access** (Optional but recommended)
+4. **Sudo access** (For most installer, this is required)
